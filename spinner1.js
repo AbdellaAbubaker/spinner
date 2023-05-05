@@ -1,20 +1,23 @@
 
 setTimeout(() => {
-  process.stdout.write('\r|   --');
+  process.stdout.write('\r|   --', )
+  process.stdout.write('\r/   00')
+  process.stdout.write('\r-   <>')
+  process.stdout.write('\r\\   ');
 }, 100);
 
-setTimeout(() => {
-  process.stdout.write('\r/   00');
-}, 300);
+// setTimeout(() => {
+//   process.stdout.write('\r/   00');
+// }, 300);
 
-setTimeout(() => {
-  process.stdout.write('\r-   <>');
-}, 500);
+// setTimeout(() => {
+//   process.stdout.write('\r-   <>');
+// }, 500);
 
-setTimeout(() => {
-  // Need to escape the backslash since it's a special character.
-  process.stdout.write('\r\\   '); 
-}, 700);
+// setTimeout(() => {
 
-// ... fill in the rest yourself ...
+//   process.stdout.write('\r\\   '); 
+// }, 700);
+
+
   
